@@ -8,3 +8,7 @@ class Egyagyasszoba(Szoba):
         self.ar = 10
         self.szobaszam = 1
 
+class Ketagyasszoba(Szoba):
+    def __init__(self):
+        self.ar = 20
+        self.szobaszam = 2
