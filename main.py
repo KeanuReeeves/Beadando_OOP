@@ -17,3 +17,9 @@ class Szalloda:
     def __init__(self, nev):
         self.nev = nev
         self.szobak = []
+        self.foglalasok = []
+
+class Foglalas:
+    def __init__(self,szoba, datum):
+        self.szoba = szoba
+        self.datum = datum
